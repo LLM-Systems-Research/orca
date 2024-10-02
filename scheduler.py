@@ -1,4 +1,4 @@
-from engine import ORCAExecutionEngine
+from orca.engine_py.engine import ORCAExecutionEngine
 from threading import Thread
 import random
 import torch

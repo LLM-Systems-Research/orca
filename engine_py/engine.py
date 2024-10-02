@@ -45,6 +45,7 @@ class ORCAExecutionEngine:
 
         # Output projection after merging
         output = self.attn_layer.attn_out_linear(merged_attn)
+        print(f"Output: {output}")
 
         return output
 
